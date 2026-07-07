@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+        content="Talks, conferences, and outreach activities by Ruggero Valli." />
+  <meta property="og:title"       content="Talks — Ruggero Valli" />
+  <meta property="og:type"        content="website" />
+
+  <title>Talks — Ruggero Valli</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <div class="header__inner">
+      <a class="header__logo" href="index.html" aria-label="Ruggero Valli — home">
+        <img class="header__logo-img" src="images/logo.png" alt="RV logo" width="40" height="40">
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="research.html">Research</a></li>
+          <li><a class="nav__link" href="cv.html">CV</a></li>
+          <li><a class="nav__link nav__link--active" href="talks.html">Talks</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger"
+              id="hamburger"
+              aria-label="Toggle navigation menu"
+              aria-controls="site-nav"
+              aria-expanded="false">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══ MAIN ════════════════════════════════════════════════ -->
+  <main id="main">
+
+    <!-- ══════════════════════════════════════════════════════════
+         TALK LISTS — HOW TO ADD ENTRIES
+         ════════════════════════════════════════════════════════
+
+         Copy a .talk-entry block and fill in the talk title and
+         venue / year in .talk-entry__meta.
+
+         Example:
+           <li class="talk-entry">
+             <p class="talk-entry__title">My Talk Title</p>
+             <p class="talk-entry__meta">Cool Workshop 2025, Berlin</p>
+           </li>
+         ════════════════════════════════════════════════════════ -->
+
+
+    <!-- ── Section 1: Talks & Conferences ──────────────────── -->
+    <section class="section section--navy" aria-labelledby="talks-heading">
+      <div class="container">
+        
+        <h1 class="section__title" id="talks-heading">Talks &amp; conferences</h1>
+
+        <div class="talks-columns">
+
+          <!-- Column 1: Invited talks -->
+          <div class="talk-group">
+            <h2 class="talk-group__heading">Invited talks</h2>
+            <ul class="talk-list">
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Sep. 2025</p>
+                <p class="talk-entry__conference">Astrophysics Seminar, MPI for Gravitational Physics, Potsdam</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Aug. 2025</p>
+                <p class="talk-entry__conference">STRAND seminar, UC San Diego (online)</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Feb. 2025</p>
+                <p class="talk-entry__conference">Stellar coffee & planetary tea, ESO, Garching</p>
+              </li>
+
+            </ul>
+          </div>
+
+          <img src="images/talks/talk1.jpeg"
+          class="deco-photo"
+          alt=""
+          aria-hidden="true"
+          loading="lazy" />
+
+          <!-- Column 2: Contributed talks -->
+          <div class="talk-group">
+            <h2 class="talk-group__heading">Selection of contributed talks</h2>
+            <ul class="talk-list">
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Jul. 2026</p>
+                <p class="talk-entry__conference">LIAC42: To Be or not to Be, Liège</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Nov. 2025</p>
+                <p class="talk-entry__conference">Stellar Populations and their Explosions conference, Ringberg castle</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Oct. 2025</p>
+                <p class="talk-entry__conference">2nd BLOeM collaboration meeting, Amsterdam</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Oct. 2025</p>
+                <p class="talk-entry__conference">Astro-Obs seminar, Newcastle University (online)</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Sep. 2025</p>
+                <p class="talk-entry__conference">Spins-UK conference, Royal Holloway University of London, Egham</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">May. 2025</p>
+                <p class="talk-entry__conference">18th Bonn neutron star workshop, MPI for Radio Astronomy, Bonn</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Jan. 2025</p>
+                <p class="talk-entry__conference">MPA institute seminar, MPA, Garching</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Nov. 2024</p>
+                <p class="talk-entry__conference">18th IMPRS symposium, ESO, Garching</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Jul. 2024</p>
+                <p class="talk-entry__conference">EAS conference, Padova</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">May. 2024</p>
+                <p class="talk-entry__conference">Astronomy Tea Talk, Caltech, Pasadena</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Apr.-May 2024</p>
+                <p class="talk-entry__conference">Towards a Physical Understanding of Tidal Disruption Events, KITP program, Santa Barbara</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Mar. 2024</p>
+                <p class="talk-entry__conference">Workshop on stable mass transfer in binaries, CCA, New York City</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Dec. 2023</p>
+                <p class="talk-entry__conference">ESO Informal Discussion, ESO, Garching</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Jun.-Aug. 2023</p>
+                <p class="talk-entry__conference">MPA-Kavli summer program, MPA, Garching</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Jun. 2023</p>
+                <p class="talk-entry__conference">15th IMPRS symposium, MPA, Garching</p>
+              </li>
+
+              <li class="talk-entry">
+                <p class="talk-entry__date">Feb. 2023</p>
+                <p class="talk-entry__conference">Nordic Winter School on Gravitational Astrophysics, Skeikampen, Norway</p>
+              </li>
+
+            </ul>
+          </div>
+
+        </div><!-- /.talks-columns -->
+
+      </div><!-- /.container -->
+
+      </div>
+    </section>
+
+
+    <!-- ── Section 2: Outreach ──────────────────────────────── -->
+    <section class="section section--black" aria-labelledby="outreach-heading">
+      <div class="container">
+
+        <div class="project-split reveal">
+
+          <div class="project-split__text">
+            <h2 class="section__title" id="outreach-heading">Outreach</h2>
+            <p>
+              I am passionate about outreach, as it allows me to share my enthusiasm
+              for astronomy and science. Since 2024, I have had the pleasure of
+              helping welcome the classes of Italian high-school students that
+              regularly come visit MPA, where I engage them with talks about my
+              work as an astrophysicist. It's incredibly rewarding to inspire the
+              next generation of scientists. Additionally, I enjoy contributing to
+              the physics and astronomy Stack Exchange communities, where I have
+              answered more than a hundred questions and helped to foster a
+              collaborative learning environment.
+            </p>
+            <p>
+              I also create astrophysical artwork (see the
+              <a class="text-link" href="index.html#gallery">gallery on the home page</a>)
+              to bring the beauty of the cosmos to anyone who wants it.
+            </p>
+
+          </div>
+
+          <div class="project-split__images">
+            <img src="images/gallery/exoplanet.jpg"
+            alt=""
+            aria-hidden="true"
+            loading="lazy" />
+          </div>
+
+        </div>
+
+      </div><!-- /.container -->
+
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <span class="orbit-motif" aria-hidden="true"></span>
+    <p>
+      <a href="https://www.ruggerovalli.com">ruggerovalli.com</a>
+      by Ruggero Valli is licensed under a
+      <a href="http://creativecommons.org/licenses/by-sa/4.0/"
+         target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
+    </p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+
+</body>
+</html>

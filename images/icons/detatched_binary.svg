@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="42"
+   height="42"
+   viewBox="0 0 11.1125 11.1125"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (1:1.4.4+202605061432+dcaf3e7d9e)"
+   sodipodi:docname="binary_icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.305525"
+     inkscape:cx="-58.771864"
+     inkscape:cy="-6.28924"
+     inkscape:window-width="1920"
+     inkscape:window-height="1121"
+     inkscape:window-x="299"
+     inkscape:window-y="1482"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:none;stroke:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path1"
+       cx="7.8506603"
+       cy="0.3331055"
+       rx="4.0749998"
+       ry="4.0750356"
+       transform="rotate(42.570383)" />
+    <circle
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path2"
+       cx="7.8506603"
+       cy="-3.7419302"
+       r="1.4"
+       inkscape:transform-center-y="-3.0010474"
+       transform="rotate(42.570383)"
+       inkscape:transform-center-x="-2.7567427" />
+    <circle
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path3"
+       cx="7.8506603"
+       cy="4.4081411"
+       r="0.69999999"
+       inkscape:transform-center-y="3.0010472"
+       transform="rotate(42.570383)"
+       inkscape:transform-center-x="2.7567429" />
+  </g>
+</svg>

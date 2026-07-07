@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+        content="Curriculum vitae of Ruggero Valli, astrophysicist and PhD student
+                 at the Max Planck Institute for Astrophysics." />
+  <meta property="og:title"       content="CV — Ruggero Valli" />
+  <meta property="og:type"        content="website" />
+
+  <title>CV — Ruggero Valli</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <div class="header__inner">
+      <a class="header__logo" href="index.html" aria-label="Ruggero Valli — home">
+        <img class="header__logo-img" src="images/logo.png" alt="RV logo" width="40" height="40">
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="research.html">Research</a></li>
+          <li><a class="nav__link nav__link--active" href="cv.html">CV</a></li>
+          <li><a class="nav__link" href="talks.html">Talks</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger"
+              id="hamburger"
+              aria-label="Toggle navigation menu"
+              aria-controls="site-nav"
+              aria-expanded="false">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══ MAIN ════════════════════════════════════════════════ -->
+  <main id="main">
+
+    <!-- ══════════════════════════════════════════════════════════
+         FLOATING IMAGES — HOW TO USE
+         ════════════════════════════════════════════════════════
+
+         Place an <img> with class "float-right" or "float-left"
+         anywhere inside a <div class="flow"> and the surrounding
+         text will wrap around it naturally.
+
+         • float-right  — image on the right, text wraps left
+         • float-left   — image on the left, text wraps right
+
+         The image width is clamped between 160 px and 320 px
+         (~38 % of the container). Adjust the inline style
+         "width:" if you want a specific size.
+
+         Provide a meaningful alt text for every photo.
+         ════════════════════════════════════════════════════════ -->
+
+
+    <!-- ── Section: Education ───────────────────────────────── -->
+    <section class="section section--black" aria-labelledby="cv-heading">
+      <div class="container">
+
+        <div class="cv-top reveal">
+          <h1 class="section__title" id="cv-heading">CV</h1>
+          <a class="btn btn--outline"
+             href="docs/Ruggero_Valli_CV_25_11.pdf"
+             download>
+            Download CV
+          </a>
+        </div>
+
+        <h2 class="cv-section-heading">Education</h2>
+
+        <div class="project-split reveal">
+
+          <div class="project-split__text">
+            <div class="timeline">
+
+              <div class="timeline__entry">
+                <p class="timeline__year">2017 ─ 2020</p>
+                <p class="timeline__event">Bachelor in Physics</p>
+                <p class="timeline__detail">Sapienza University of Rome</p>
+              </div>
+
+              <div class="timeline__entry">
+                <p class="timeline__year">2020 ─ 2022</p>
+                <p class="timeline__event">Master in Astrophysics</p>
+                <p class="timeline__detail">Sapienza University of Rome</p>
+              </div>
+
+              <div class="timeline__entry">
+                <p class="timeline__year">2022 ─ 2026</p>
+                <p class="timeline__event">PhD in Astrophysics</p>
+                <p class="timeline__detail">
+                  Max Planck Institute for Astrophysics, Garching<br>
+                  Supervisor: Selma de Mink
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="project-split__images">
+
+            <img src="images/gallery/spinstar.jpg"
+                alt="A rapidly rotating star surrounded by a disk"
+                class="float-right"
+                style="width:500px"
+                loading="lazy" />
+          </div>
+
+        </div>
+
+
+          
+
+
+
+
+      </div>
+    </section>
+
+    <script> /***
+    <!-- ── Section: Research positions ─────────────────────── -->
+    <section class="section section--navy" aria-labelledby="positions-heading">
+      <div class="container">
+
+        <div class="flow reveal">
+
+          <h2 class="cv-section-heading" id="positions-heading">Research positions</h2>
+
+          <div class="timeline">
+
+            <div class="timeline__entry">
+              <p class="timeline__year">2026 ─ present</p>
+              <p class="timeline__event">NOMIS-ISTA fellow</p>
+              <p class="timeline__detail">Istitute of Science and Technology Austria</p>
+            </div>
+
+          </div><!-- /.timeline -->
+
+        </div><!-- /.flow -->
+
+      </div>
+    </section>
+    ***/ </script>
+
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <span class="orbit-motif" aria-hidden="true"></span>
+    <p>
+      <a href="https://www.ruggerovalli.com">ruggerovalli.com</a>
+      by Ruggero Valli is licensed under a
+      <a href="http://creativecommons.org/licenses/by-sa/4.0/"
+         target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
+    </p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+
+</body>
+</html>

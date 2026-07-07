@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+        content="Research projects by Ruggero Valli: binary stars, Population III stars,
+                 neutron stars, and stellar evolution." />
+  <meta property="og:title"       content="Research — Ruggero Valli" />
+  <meta property="og:type"        content="website" />
+
+  <title>Research — Ruggero Valli</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <div class="header__inner">
+      <a class="header__logo" href="index.html" aria-label="Ruggero Valli — home">
+        <img class="header__logo-img" src="images/logo.png" alt="RV logo" width="40" height="40">
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link nav__link--active" href="research.html">Research</a></li>
+          <li><a class="nav__link" href="cv.html">CV</a></li>
+          <li><a class="nav__link" href="talks.html">Talks</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger"
+              id="hamburger"
+              aria-label="Toggle navigation menu"
+              aria-controls="site-nav"
+              aria-expanded="false">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══ MAIN ════════════════════════════════════════════════ -->
+  <main id="main">
+
+    <!-- ── Section 1: Overview ──────────────────────────────── -->
+    <section class="section section--bkg-image" aria-labelledby="research-heading"
+        style="background-image: url('images/research/banner.jpg');">
+      <div class="container">
+        <div class="research-intro reveal">
+          <div>
+            <h1 class="section__title" id="research-heading">Research</h1>
+            <p class="lead">
+              I study the lives and deaths of massive stars, with a focus on how
+              binary interactions shape their evolution and final fates.
+            </p>
+          </div>
+          <div style="padding-top: 0.25rem;">
+            <a class="btn btn--outline"
+               href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=orcid%3A0000-0003-3456-3349%20(doctype%3Aarticle%20OR%20doctype%3Aeprint)&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+               target="_blank" rel="noopener noreferrer">
+              Publication list
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════════
+         PROJECT SECTIONS
+         ════════════════════════════════════════════════════════
+
+         Each section uses a 50/50 split: prose on one side,
+         paper images on the other.
+
+         Layout options:
+           Default  → text LEFT,  images RIGHT
+           Reversed → text RIGHT, images LEFT  (add class "project-split--reversed")
+
+         To add a new section:
+           1. Copy any section block below (from <section> to </section>)
+           2. Change the background class (section--black / section--navy / section--blue)
+              — alternate so consecutive sections are visually distinct
+           3. Toggle the "project-split--reversed" class
+           4. Update the heading id, heading text, body text, and image paths
+           5. Add or remove <img> tags inside .project-split__images (1–3 images)
+         ════════════════════════════════════════════════════════ -->
+
+
+    <!-- ── Project: Supernova kicks ──────────────────────── -->
+    <section class="section section--blue" aria-labelledby="kicks-heading">
+      <div class="container">
+
+        <div class="project-split reveal">
+
+          <!-- ── Text column ── -->
+          <div class="project-split__text">
+            <h2 class="project__title" id="kicks-heading">
+              Three modes of supernova kicks? Who ordered <em>that?</em>
+            </h2>
+            <div class="project__body">
+              <p>
+                When neutron stars are born, they are kicked out of the explosion site
+                with a high velocity. We discovered that not all velocities are equally
+                likely: there are instead three specific possibilities, or modes.
+                Why these? Why three?
+                The neutron stars we reached out to did not immediately respond for comments.
+              </p>
+              <p>
+                Valli et al. 2025 —
+                <em>Evidence of polar and ultralow supernova kicks from the orbits
+                of Be X-ray binaries</em> —
+                <a class="text-link"
+                   href="https://arxiv.org/abs/2505.08857"
+                   target="_blank" rel="noopener noreferrer">arXiv:2505.08857
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <!-- ── Images column ── -->
+          <div class="project-split__images">
+            <!--<img src="images/research/P-e_kicks.png"
+                 alt="Period-eccentricity diagram of Be X-ray binaries showing two distinct kick-velocity modes"
+                 loading="lazy" />-->
+            <img src="images/research/other_works_kicks.png"
+                 alt="Comparison with supernova kick constraints from the literature"
+                 loading="lazy" />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── Project: Circumbinary disks ─────────────────── -->
+    <section class="section section--black" aria-labelledby="CBD-heading">
+      <div class="container">
+
+        <div class="project-split project-split--reversed reveal">
+
+          <!-- ── Text column ── -->
+          <div class="project-split__text">
+            <h2 class="project__title" id="CBD-heading">
+              To shrink or not to shrink ─ what circumbinary disks to do the binary
+            </h2>
+            <div class="project__body">
+              <p>
+                What happens to a binary system surrounded by gas? Accretion from
+                a circubminary disk of gas can alter the orbit in many ways,
+                pumping the eccentricity towards an equilibrium, widening the
+                orbit or shrinking it and facilitating a merger.
+              </p>
+              <p>
+                Valli, et al. 2024 —
+                <em>Long-term evolution of binary orbits induced by circumbinary disks</em> — 
+                <a class="text-link"
+                   href="https://www.aanda.org/articles/aa/full_html/2024/08/aa49421-24/aa49421-24.html"
+                   target="_blank" rel="noopener noreferrer">A&A, Vol. 688, id.A128, 18 pp.
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="project-split__images">
+            <img src="images/research/cbd.png"
+                 alt="Artist impression of the first stars forming in a pristine primordial gas cloud"
+                 loading="lazy" />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── Project: Bincodex format ─────────────────────────── -->
+    <section class="section section--navy" aria-labelledby="bincodex-heading">
+      <div class="container">
+
+        <div class="project-split reveal">
+
+          <!-- ── Text column ── -->
+          <div class="project-split__text">
+            <h2 class="project__title" id="bincodex-heading">
+              Binary population synthesis: many codes, one common format
+            </h2>
+            <div class="project__body">
+              <p>
+                A new binary population synthesis code is created every few years.
+                They all solve the same problem: compute what happens to a binary 
+                star, from birth to death. But they couldn't be more different,
+                regarding which processes they decide to implement, how they model
+                them and what physical choices they make. Moreover, each code has
+                its custom output format, which makes systematic comparisons
+                difficult. For this reasons, we defined the BinCodex specifications:
+                a common output format that is now implemented by the majority of
+                population synthesis codes.
+              </p>
+              <p>
+                Valli, et al. 2023 —
+                <em>BinCodex: a common output format for binary population synthesis</em> — 
+                <a class="text-link"
+                   href="https://arxiv.org/abs/2311.03431"
+                   target="_blank" rel="noopener noreferrer">arXiv:2311.03431
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <!-- ── Images column ── -->
+          <div class="project-split__images">
+            <img src="images/research/vdh-diagram.png"
+                 alt="Artist impression of a neutron star with a magnetosphere and pulsar emission beams"
+                 loading="lazy" />
+            <p class="image-caption">
+              Adapted from 
+              <a class="text-link"
+                   href="https://link.springer.com/article/10.1007/s41114-022-00041-y"
+                   target="_blank" rel="noopener noreferrer">Amaro-Seoane et al. 2022
+              </a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <span class="orbit-motif" aria-hidden="true"></span>
+    <p>
+      <a href="https://www.ruggerovalli.com">ruggerovalli.com</a>
+      by Ruggero Valli is licensed under a
+      <a href="http://creativecommons.org/licenses/by-sa/4.0/"
+         target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
+    </p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+
+</body>
+</html>
